@@ -15,6 +15,7 @@ This project could really benefit from the input of a medical professional that 
 
 ## Data model(s)
 
+### Overview
 The goal of this project is to take the information from the IFU PDF file for each diagnostic and enter it into a standard yaml format. These yaml files can be parsed and combined into a single machine-readable dataset.
 
 `data_template.yaml` contains a template for entering clinical testing data. 
@@ -25,3 +26,20 @@ One of the augmentations is the addition of an `id` field. This ID maps the meta
 
 In some cases, the diagnostic test has more than one type documented. (See, for example, those marked "Serology IgM and IgG") in the "technology" field. In this case, fill in info for all techologies into two "trials" sections into the yaml.
 
+### Fields collected
+For now, I'm collecting the following fields
+
+ * `type:` - type of trial. e.g. "molecular" or "serology igm" or "serology igg"
+ * `n_total:` - total number of patients in clinical trial
+ * `n_pos:` - number of patients in clinical trial with sars-cov-2
+ * `n_neg:` - number of patients in clinical trial without sars-cov-2
+ * `tp:` - number of patients with sars-cov-2 that got a positive result
+ * `fp:` - number of patients without sars-cov-2 that got a positive result
+ * `tn`: - number of patiens without sars-cov-2 that got a negative result
+ * `fn:` - number of patiens with sars-cov-2 that got a positive result
+ * `reported_sensitivity_point:` - reported sensitivity or positive percent agreement point estimate
+ * `reported_sensitivity_95ci_low:` - reported sensitivity low point of 95% CI
+ * `reported_sensitivity_95ci_high:` - reported sensitivity high point of 95% CI
+ * `reported_specificity_point:` - reported specificity or negative percent agreement point estimate
+ * `reported_specificity_95ci_low:` - reported specificity low point of 95% CI
+ * `reported_specificity_95ci_high:` - reported specificity high point of 95% CI
