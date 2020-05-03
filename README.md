@@ -43,3 +43,5 @@ For now, I'm collecting the following fields
  * `reported_specificity_point:` - reported specificity or negative percent agreement point estimate
  * `reported_specificity_95ci_low:` - reported specificity low point of 95% CI
  * `reported_specificity_95ci_high:` - reported specificity high point of 95% CI
+ 
+ ** Note sensitivity and specificity should be reported in decimals. i.e. for 100% enter 1. For 95% enter 0.95. etc.
