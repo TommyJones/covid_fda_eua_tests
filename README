@@ -1,0 +1,19 @@
+The purpose of this repository is to collect and store clinical testing data for SARS-CoV-2 diagnostic tests authorized by the FDA in a way that is consistent and machine readable.
+
+The list of tests is available here: [https://www.fda.gov/medical-devices/emergency-situations-medical-devices/emergency-use-authorizations](https://www.fda.gov/medical-devices/emergency-situations-medical-devices/emergency-use-authorizations)
+
+## Contributing to this project
+
+If you want to contribute, you can! You have several options:
+
+1. Open an issue
+2. Send me a pull request
+3. Email me at jones.thos.w@gmail.com
+4. Tweet at me @thos_jones
+
+This project could really benefit from the input of a medical professional that understands the biology and chemestry of these tests. It's one thing to pull out some reported numbers. It's entirely another to understand which numbers are relevant/irrelevant and put them in context.
+
+## Data model(s)
+
+Coming soon!
+

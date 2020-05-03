@@ -1,0 +1,32 @@
+id:
+trials:
+  -
+    type:
+	n_total:
+	n_pos:
+	n_neg:
+	tp:
+	fp:
+	tn:
+	fn:
+	reported_sensitivity_point:
+	reported_sensitivity_95ci_low:
+	reported_sensitivity_95ci_high:
+	reported_specificity_point:
+	reported_specificity_95ci_low:
+	reported_specificity_95ci_high:
+  -
+    type:
+	n_total:
+	n_pos:
+	n_neg:
+	tp:
+	fp:
+	tn:
+	fn:
+	reported_sensitivity_point:
+	reported_sensitivity_95ci_low:
+	reported_sensitivity_95ci_high:
+	reported_specificity_point:
+	reported_specificity_95ci_low:
+	reported_specificity_95ci_high:
