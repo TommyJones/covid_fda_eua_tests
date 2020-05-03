@@ -30,18 +30,19 @@ In some cases, the diagnostic test has more than one type documented. (See, for 
 For now, I'm collecting the following fields
 
  * `type:` - type of trial. e.g. "molecular" or "serology igm" or "serology igg"
- * `n_total:` - total number of patients in clinical trial
- * `n_pos:` - number of patients in clinical trial with sars-cov-2
- * `n_neg:` - number of patients in clinical trial without sars-cov-2
- * `tp:` - number of patients with sars-cov-2 that got a positive result
- * `fp:` - number of patients without sars-cov-2 that got a positive result
- * `tn`: - number of patiens without sars-cov-2 that got a negative result
- * `fn:` - number of patiens with sars-cov-2 that got a positive result
+ * `n_total:` - total number of specimines in clinical trial
+ * `n_pos:` - number of specimines in clinical trial with sars-cov-2
+ * `n_neg:` - number of specimines in clinical trial without sars-cov-2
+ * `tp:` - number of specimines with sars-cov-2 that got a positive result
+ * `fp:` - number of specimines without sars-cov-2 that got a positive result
+ * `tn`: - number of specimines without sars-cov-2 that got a negative result
+ * `fn:` - number of specimines with sars-cov-2 that got a positive result
  * `reported_sensitivity_point:` - reported sensitivity or positive percent agreement point estimate
  * `reported_sensitivity_95ci_low:` - reported sensitivity low point of 95% CI
  * `reported_sensitivity_95ci_high:` - reported sensitivity high point of 95% CI
  * `reported_specificity_point:` - reported specificity or negative percent agreement point estimate
  * `reported_specificity_95ci_low:` - reported specificity low point of 95% CI
  * `reported_specificity_95ci_high:` - reported specificity high point of 95% CI
+ * `notes` - additional notes as necessary
  
  ** Note sensitivity and specificity should be reported in decimals. i.e. for 100% enter 1. For 95% enter 0.95. etc.
