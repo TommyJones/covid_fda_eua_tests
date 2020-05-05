@@ -1,7 +1,7 @@
 id: 5 #ID number of the test
 trials: 
   -
-    type: molecular # type of trial. e.g. "molecular" or "serology igm" or "serology igg"
+    type: molecular np # type of trial. e.g. "molecular" or "serology igm" or "serology igg"
 	  n_total: 178 # total number of patients in clinical trial
 	  n_pos: 69 # number of patients in clinical trial with sars-cov-2
 	  n_neg: 109 # number of patients in clinical trial without sars-cov-2
@@ -15,9 +15,9 @@ trials:
 	  reported_specificity_point: 1 # reported specificity or negative percent agreement point estimate
 	  reported_specificity_95ci_low: .966 # reported specificity low point of 95% CI
 	  reported_specificity_95ci_high: 1 # reported specificity high point of 95% CI
-	  notes: swab specimines
+	  notes: np and op swab specimines
   -
-    type: molecular
+    type: molecular lrt
 	  n_total: 178
 	  n_pos: 70
 	  n_neg: 108
