@@ -1,34 +1,18 @@
-id: #ID number of the test
+id: 11 
 trials: 
   -
-    type: # type of trial. e.g. "molecular" or "serology igm" or "serology igg"
-	  n_total: # total number of specimines in clinical trial
-	  n_pos: # number of specimines in clinical trial with sars-cov-2
-	  n_neg: # number of specimines in clinical trial without sars-cov-2
-	  tp: # number of specimines with sars-cov-2 that got a positive result
-	  fp: # number of specimines without sars-cov-2 that got a positive result
-	  tn: # number of patiens without sars-cov-2 that got a negative result
-	  fn: # number of patiens with sars-cov-2 that got a positive result
-	  reported_sensitivity_point: # reported sensitivity or positive percent agreement point estimate
-	  reported_sensitivity_95ci_low: # reported sensitivity low point of 95% CI
-	  reported_sensitivity_95ci_high: # reported sensitivity high point of 95% CI
-	  reported_specificity_point: # reported specificity or negative percent agreement point estimate
-	  reported_specificity_95ci_low: # reported specificity low point of 95% CI
-	  reported_specificity_95ci_high: # reported specificity high point of 95% CI
-	  notes: # any additional information relevant
-  -
-    type:
-	  n_total:
-	  n_pos:
-	  n_neg:
-	  tp:
-	  fp:
-	  tn:
-	  fn:
-	  reported_sensitivity_point:
-	  reported_sensitivity_95ci_low:
-	  reported_sensitivity_95ci_high:
-	  reported_specificity_point:
-	  reported_specificity_95ci_low:
-	  reported_specificity_95ci_high:
+    type: molecular nps
+	  n_total: 65
+	  n_pos: 18
+	  n_neg: 47
+	  tp: 17
+	  fp: 0
+	  tn: 47
+	  fn: 1
+	  reported_sensitivity_point: .944
+	  reported_sensitivity_95ci_low: .742
+	  reported_sensitivity_95ci_high: .99
+	  reported_specificity_point: 1
+	  reported_specificity_95ci_low: .924
+	  reported_specificity_95ci_high: 1
 	  notes:
