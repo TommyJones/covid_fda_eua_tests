@@ -1,34 +1,18 @@
 id: 2 #ID number of the test
 trials: 
   -
-    type: # type of trial. e.g. "molecular" or "serology igm" or "serology igg"
-	  n_total: # total number of specimines in clinical trial
-	  n_pos: # number of specimines in clinical trial with sars-cov-2
-	  n_neg: # number of specimines in clinical trial without sars-cov-2
-	  tp: # number of specimines with sars-cov-2 that got a positive result
-	  fp: # number of specimines without sars-cov-2 that got a positive result
-	  tn: # number of patiens without sars-cov-2 that got a negative result
-	  fn: # number of patiens with sars-cov-2 that got a positive result
-	  reported_sensitivity_point: # reported sensitivity or positive percent agreement point estimate
-	  reported_sensitivity_95ci_low: # reported sensitivity low point of 95% CI
-	  reported_sensitivity_95ci_high: # reported sensitivity high point of 95% CI
-	  reported_specificity_point: # reported specificity or negative percent agreement point estimate
-	  reported_specificity_95ci_low: # reported specificity low point of 95% CI
-	  reported_specificity_95ci_high: # reported specificity high point of 95% CI
-	  notes: # any additional information relevant
-  -
-    type:
+    type: molecular
 	  n_total:
-	  n_pos:
-	  n_neg:
-	  tp:
-	  fp:
-	  tn:
-	  fn:
+	  n_pos: 43
+	  n_neg: 29
+	  tp: 42
+	  fp: 0
+	  tn: 29
+	  fn: 1
 	  reported_sensitivity_point:
 	  reported_sensitivity_95ci_low:
 	  reported_sensitivity_95ci_high:
 	  reported_specificity_point:
 	  reported_specificity_95ci_low:
 	  reported_specificity_95ci_high:
-	  notes:
+	  notes: agregated across lod
