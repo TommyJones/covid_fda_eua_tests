@@ -1,4 +1,4 @@
-id: #ID number of the test
+id: 21 #ID number of the test
 trials: 
   -
     type: # type of trial. e.g. "molecular" or "serology igm" or "serology igg"
